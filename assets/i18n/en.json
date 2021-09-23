@@ -1,0 +1,4 @@
+{ 
+    "WELCOME": "Hello {{ name }}, welcome back!",
+    "CART_CONTENT": "You have {{ cartItemCount }} in your cart."
+ }
