@@ -1,16 +1,15 @@
-<!--The content below is only a placeholder and can be replaced.-->
-
 <div class="bg-dark" style="text-align:center;color: #fff">
- 
+
   <h2 class="navbar-brand ">
     Welcome to {{ title }}!
   </h2>
   <select #langSelect (change)="changeLang(langSelect.value)">
-      <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+    <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang
+      }}</option>
   </select>
 </div>
 <div class="row">
- <div class="col-md-8">
+  <div class="col-md-8">
     <p>{{ 'WELCOME' | translate:{'name':name} }}</p>
     <p>{{ 'CART_CONTENT' | translate:{'cartItemCount':cartlen} }}</p>
   </div>

@@ -1,0 +1,4 @@
+{
+  "WELCOME": "Guten Tag {{ name }}, wilkommen!",
+  "CART_CONTENT": "Du hast {{ cartItemCount }} Dinge in deinem Wagen."
+}
